@@ -1,0 +1,25 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".form" #>
+<#@ visualForm processor="visualFormDirectiveProcessor" requires="fileName='Test.vForm'" #>
+
+Generated material. Generating code in C#.
+
+<#
+  // When you change the DSL Definition, some of the code below may not work.
+
+  foreach (Form form in this.FormModel.Elements)
+  {#>
+  Create <#= form.Name #>
+  <#
+   foreach (Field field in form.Fields)
+  {
+#>
+	add <#= field.Type #> <#= field.Name #> 
+options: 
+<#  foreach (Option option in field.Options)
+	{#>
+		<#= option.Name #>
+		<#}
+	}   
+  }
+#>

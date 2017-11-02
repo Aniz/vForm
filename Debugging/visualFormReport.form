@@ -1,0 +1,37 @@
+﻿
+Generated material. Generating code in C#.
+
+  Create User Account
+  	add text Name 
+options: 
+	add comboBox Interests 
+options: 
+		Area 5
+				Area 1
+				Area 2
+				Area 3
+				Area 4
+			add text Email 
+options: 
+	add email Email 
+options: 
+	add selectBox Civil Status 
+options: 
+		Divorced
+				Single
+				Maried
+				
+			add textarea Bio 
+options: 
+	add date Birthday 
+options: 
+	add radio Genre 
+options: 
+		Male
+				Female
+			add check Send me notifications 
+options: 
+	add integer Age 
+options: 
+	add file Photo 
+options: 

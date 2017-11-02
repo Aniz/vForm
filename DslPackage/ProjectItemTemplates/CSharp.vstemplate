@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{57cd9904-d102-4a46-9203-99defe967a99}</TemplateID>
+		<Name Package="{a3bfe338-0dc8-4aa8-8a41-56820c85dbac}" ID="103"/>
+		<Description Package="{a3bfe338-0dc8-4aa8-8a41-56820c85dbac}" ID="102"/>
+		<Icon Package="{a3bfe338-0dc8-4aa8-8a41-56820c85dbac}" ID="201" />
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>visualForm.vForm</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.vForm">vForm.vForm</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.vForm.diagram">vForm.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

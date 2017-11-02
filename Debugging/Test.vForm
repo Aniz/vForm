@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<formModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b97e0104-f326-4064-8eb6-73dd91bfaf8e" xmlns="http://schemas.microsoft.com/dsltools/visualForm">
+  <elements>
+    <form Id="487f5235-b908-491c-83a3-f0c30ab15f04" name="User Account">
+      <fields>
+        <formHasFields Id="7b4d58f4-d222-4a86-b63b-0abfa38bbbe1">
+          <field Id="071a8601-a0fe-4ea5-a73f-e132f17603c8" name="Name" type="text" required="true" />
+        </formHasFields>
+        <formHasFields Id="669579a5-ff48-4e31-814f-19956947d20d">
+          <field Id="02c31240-8196-4a17-a556-c1aa9387143d" name="Interests" type="comboBox" required="false">
+            <options>
+              <fieldHasOptions Id="dd32507e-a260-44f6-bb9a-4e6bda7ecd53">
+                <option Id="aeb000b3-5885-4e59-88ab-6d66b8560763" name="Area 5" />
+              </fieldHasOptions>
+              <fieldHasOptions Id="e5e9d730-2cef-4868-88ec-5ba7418c2afa">
+                <option Id="80095731-7396-4378-978b-b172a3b551d3" name="Area 1" />
+              </fieldHasOptions>
+              <fieldHasOptions Id="7c8cb227-3d73-4f65-97a6-53b406569e20">
+                <option Id="0b9e1ea1-acdb-4da9-b9c2-403b8c05bba0" name="Area 2" />
+              </fieldHasOptions>
+              <fieldHasOptions Id="33cde06d-58d7-4a52-aa50-6dc8c8bed4dc">
+                <option Id="68a6e91f-12ef-43b6-9cc1-908fb0e420f6" name="Area 3" />
+              </fieldHasOptions>
+              <fieldHasOptions Id="f865ed07-9383-4254-bed8-85697481b9ee">
+                <option Id="e3bf4890-bc29-4a81-addd-711e1dd09074" name="Area 4" />
+              </fieldHasOptions>
+            </options>
+          </field>
+        </formHasFields>
+        <formHasFields Id="7c2ab390-7b65-46c4-b2a3-2f6c794077ef">
+          <field Id="91eb58ed-b021-4592-842a-f1df18d0057f" name="Email" type="text" required="false" />
+        </formHasFields>
+        <formHasFields Id="78fa20e1-f517-4216-a6db-f2a0e6e37f47">
+          <field Id="5800220e-17fd-45a5-a950-a01a63328725" name="Email" type="email" required="true" />
+        </formHasFields>
+        <formHasFields Id="12673190-521b-41bc-971b-ccf2c766779f">
+          <field Id="85ab2011-534a-48b9-8707-f65cc776165c" name="Civil Status" type="selectBox" required="false">
+            <options>
+              <fieldHasOptions Id="55a4d251-8933-4b54-8431-49cb459346ce">
+                <option Id="00f63e60-124f-46bf-a453-5fde43e931a4" name="Divorced" />
+              </fieldHasOptions>
+              <fieldHasOptions Id="2893d130-bc0b-4c8d-86b8-c2e02b2b0ef8">
+                <option Id="206c2449-2db7-4a4b-913f-14b650b9a0b9" name="Single" />
+              </fieldHasOptions>
+              <fieldHasOptions Id="9adb7a1d-28dd-450a-839e-2349ce43ecf0">
+                <option Id="1d00dffe-1575-46b7-9245-e0f9d6c8951a" name="Maried" />
+              </fieldHasOptions>
+              <fieldHasOptions Id="22b435e8-b36c-4522-a2b9-e5e768df3882">
+                <option Id="df62fa3b-ed0e-487a-8789-264b46974cb4" />
+              </fieldHasOptions>
+            </options>
+          </field>
+        </formHasFields>
+        <formHasFields Id="6a207c34-b871-4d01-aef4-5be8fe7f87c3">
+          <field Id="6c4c0768-c2ec-4ab4-a699-00fa5208aaa5" name="Bio" type="textarea" required="false" />
+        </formHasFields>
+        <formHasFields Id="3c0231cc-64fa-476c-b661-e8413141e451">
+          <field Id="61aa9482-4b5e-4f67-a417-0d18686bae36" name="Birthday" type="date" required="false" />
+        </formHasFields>
+        <formHasFields Id="422b3c81-2707-43af-aa17-144773058497">
+          <field Id="d82db5d9-8e44-43dc-ad58-388e5d9e80e2" name="Genre" type="radio" required="false">
+            <options>
+              <fieldHasOptions Id="21f0c2e1-e68d-405d-86de-4dd29bfce566">
+                <option Id="0f26bc4a-1038-435b-a4ef-8a3652e759f5" name="Male" />
+              </fieldHasOptions>
+              <fieldHasOptions Id="7b83512a-772e-4aa0-83b8-881fc4e2416e">
+                <option Id="ce7308ed-3af7-4ef6-9bbd-3384befbd9fa" name="Female" />
+              </fieldHasOptions>
+            </options>
+          </field>
+        </formHasFields>
+        <formHasFields Id="138984d4-0fee-4f0a-a01f-c5a19ea4122d">
+          <field Id="42094d69-b6b7-416a-aac6-52c3169b3cce" name="Send me notifications" type="check" required="false" />
+        </formHasFields>
+        <formHasFields Id="f6dc0312-4686-4f23-bc28-18e047fbfd78">
+          <field Id="8e3e16f0-279f-4a31-a51a-d0911304b11a" name="Age" type="integer" required="false" />
+        </formHasFields>
+        <formHasFields Id="1a688c52-93dd-4224-a12f-e989616e285d">
+          <field Id="cf9f3c77-57ab-4ee6-97e7-fcce5178ade0" name="Photo" type="file" required="false" />
+        </formHasFields>
+      </fields>
+    </form>
+  </elements>
+</formModel>

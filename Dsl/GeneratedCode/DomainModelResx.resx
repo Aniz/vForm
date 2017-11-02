@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ufba.visualForm.visualFormDomainModel.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.visualForm</value>
+    <comment>Description for DslLibrary &apos;visualForm&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.visualFormDomainModel.DisplayName" xml:space="preserve">
+    <value>visualForm</value>
+    <comment>DisplayName for DslLibrary &apos;visualForm&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModel.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;FormModel&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModel.DisplayName" xml:space="preserve">
+    <value>Form Model</value>
+    <comment>DisplayName for DomainClass &apos;FormModel&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Form.Description" xml:space="preserve">
+    <value>Elements embedded in the model. Appear as boxes on the diagram.</value>
+    <comment>Description for DomainClass &apos;Form&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Form.DisplayName" xml:space="preserve">
+    <value>Form</value>
+    <comment>DisplayName for DomainClass &apos;Form&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Form/Name.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.Form.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Form&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Form/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Form&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Field.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.Field</value>
+    <comment>Description for DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Field/Name.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.Field.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Field/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Field/Type.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.Field.Type</value>
+    <comment>Description for DomainProperty &apos;Type&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Field/Type.DisplayName" xml:space="preserve">
+    <value>Type</value>
+    <comment>DisplayName for DomainProperty &apos;Type&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Field/Required.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.Field.Required</value>
+    <comment>Description for DomainProperty &apos;Required&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Field/Required.DisplayName" xml:space="preserve">
+    <value>Required</value>
+    <comment>DisplayName for DomainProperty &apos;Required&apos; on DomainClass &apos;Field&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Option.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.Option</value>
+    <comment>Description for DomainClass &apos;Option&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Option.DisplayName" xml:space="preserve">
+    <value>Option</value>
+    <comment>DisplayName for DomainClass &apos;Option&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Option/Name.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.Option.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;Option&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Option/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;Option&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModelHasElements.Description" xml:space="preserve">
+    <value>Embedding relationship between the Model and Elements</value>
+    <comment>Description for DomainClass &apos;FormModelHasElements&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModelHasElements.DisplayName" xml:space="preserve">
+    <value>Form Model Has Elements</value>
+    <comment>DisplayName for DomainClass &apos;FormModelHasElements&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModelHasElements/FormModel.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;FormModel&apos; on DomainRelationship &apos;FormModelHasElements&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModelHasElements/FormModel.DisplayName" xml:space="preserve">
+    <value>Form Model</value>
+    <comment>DisplayName for DomainRole &apos;FormModel&apos; on DomainRelationship &apos;FormModelHasElements&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModelHasElements/FormModel.PropertyDisplayName" xml:space="preserve">
+    <value>Elements</value>
+    <comment>PropertyDisplayName for DomainRole &apos;FormModel&apos; on DomainRelationship &apos;FormModelHasElements&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModelHasElements/Element.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Element&apos; on DomainRelationship &apos;FormModelHasElements&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModelHasElements/Element.DisplayName" xml:space="preserve">
+    <value>Element</value>
+    <comment>DisplayName for DomainRole &apos;Element&apos; on DomainRelationship &apos;FormModelHasElements&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormModelHasElements/Element.PropertyDisplayName" xml:space="preserve">
+    <value>Form Model</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Element&apos; on DomainRelationship &apos;FormModelHasElements&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormHasFields.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FormHasFields</value>
+    <comment>Description for DomainClass &apos;FormHasFields&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormHasFields.DisplayName" xml:space="preserve">
+    <value>Form Has Fields</value>
+    <comment>DisplayName for DomainClass &apos;FormHasFields&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormHasFields/Form.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FormHasFields.Form</value>
+    <comment>Description for DomainRole &apos;Form&apos; on DomainRelationship &apos;FormHasFields&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormHasFields/Form.DisplayName" xml:space="preserve">
+    <value>Form</value>
+    <comment>DisplayName for DomainRole &apos;Form&apos; on DomainRelationship &apos;FormHasFields&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormHasFields/Form.PropertyDisplayName" xml:space="preserve">
+    <value>Fields</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Form&apos; on DomainRelationship &apos;FormHasFields&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormHasFields/Field.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FormHasFields.Field</value>
+    <comment>Description for DomainRole &apos;Field&apos; on DomainRelationship &apos;FormHasFields&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormHasFields/Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;FormHasFields&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormHasFields/Field.PropertyDisplayName" xml:space="preserve">
+    <value>Form</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;FormHasFields&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldHasOptions.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldHasOptions</value>
+    <comment>Description for DomainClass &apos;FieldHasOptions&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldHasOptions.DisplayName" xml:space="preserve">
+    <value>Field Has Options</value>
+    <comment>DisplayName for DomainClass &apos;FieldHasOptions&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldHasOptions/Field.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldHasOptions.Field</value>
+    <comment>Description for DomainRole &apos;Field&apos; on DomainRelationship &apos;FieldHasOptions&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldHasOptions/Field.DisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>DisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;FieldHasOptions&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldHasOptions/Field.PropertyDisplayName" xml:space="preserve">
+    <value>Options</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Field&apos; on DomainRelationship &apos;FieldHasOptions&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldHasOptions/Option.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldHasOptions.Option</value>
+    <comment>Description for DomainRole &apos;Option&apos; on DomainRelationship &apos;FieldHasOptions&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldHasOptions/Option.DisplayName" xml:space="preserve">
+    <value>Option</value>
+    <comment>DisplayName for DomainRole &apos;Option&apos; on DomainRelationship &apos;FieldHasOptions&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldHasOptions/Option.PropertyDisplayName" xml:space="preserve">
+    <value>Field</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Option&apos; on DomainRelationship &apos;FieldHasOptions&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/text.DisplayName" xml:space="preserve">
+    <value>text</value>
+    <comment>Display name for EnumerationLiteral &apos;text&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/text.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.text</value>
+    <comment>Description for EnumerationLiteral &apos;text&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/integer.DisplayName" xml:space="preserve">
+    <value>integer</value>
+    <comment>Display name for EnumerationLiteral &apos;integer&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/integer.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.integer</value>
+    <comment>Description for EnumerationLiteral &apos;integer&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/date.DisplayName" xml:space="preserve">
+    <value>date</value>
+    <comment>Display name for EnumerationLiteral &apos;date&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/date.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.date</value>
+    <comment>Description for EnumerationLiteral &apos;date&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/email.DisplayName" xml:space="preserve">
+    <value>email</value>
+    <comment>Display name for EnumerationLiteral &apos;email&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/email.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.email</value>
+    <comment>Description for EnumerationLiteral &apos;email&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/check.DisplayName" xml:space="preserve">
+    <value>check</value>
+    <comment>Display name for EnumerationLiteral &apos;check&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/check.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.check</value>
+    <comment>Description for EnumerationLiteral &apos;check&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/radio.DisplayName" xml:space="preserve">
+    <value>radio</value>
+    <comment>Display name for EnumerationLiteral &apos;radio&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/radio.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.radio</value>
+    <comment>Description for EnumerationLiteral &apos;radio&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/textarea.DisplayName" xml:space="preserve">
+    <value>textarea</value>
+    <comment>Display name for EnumerationLiteral &apos;textarea&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/textarea.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.textarea</value>
+    <comment>Description for EnumerationLiteral &apos;textarea&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/selectBox.DisplayName" xml:space="preserve">
+    <value>selectBox</value>
+    <comment>Display name for EnumerationLiteral &apos;selectBox&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/selectBox.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.selectBox</value>
+    <comment>Description for EnumerationLiteral &apos;selectBox&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/comboBox.DisplayName" xml:space="preserve">
+    <value>comboBox</value>
+    <comment>Display name for EnumerationLiteral &apos;comboBox&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/comboBox.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.comboBox</value>
+    <comment>Description for EnumerationLiteral &apos;comboBox&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/file.DisplayName" xml:space="preserve">
+    <value>file</value>
+    <comment>Display name for EnumerationLiteral &apos;file&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldType/file.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldType.file</value>
+    <comment>Description for EnumerationLiteral &apos;file&apos; on DomainEnumeration &apos;FieldType&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Order/ASC.DisplayName" xml:space="preserve">
+    <value>ASC</value>
+    <comment>Display name for EnumerationLiteral &apos;ASC&apos; on DomainEnumeration &apos;Order&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Order/ASC.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.Order.ASC</value>
+    <comment>Description for EnumerationLiteral &apos;ASC&apos; on DomainEnumeration &apos;Order&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Order/DESC.DisplayName" xml:space="preserve">
+    <value>DESC</value>
+    <comment>Display name for EnumerationLiteral &apos;DESC&apos; on DomainEnumeration &apos;Order&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.Order/DESC.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.Order.DESC</value>
+    <comment>Description for EnumerationLiteral &apos;DESC&apos; on DomainEnumeration &apos;Order&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;FormShape&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FormShape.DisplayName" xml:space="preserve">
+    <value>Form Shape</value>
+    <comment>DisplayName for DomainClass &apos;FormShape&apos;</comment>
+  </data>
+  <data name="FormShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldShape.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.FieldShape</value>
+    <comment>Description for DomainClass &apos;FieldShape&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldShape.DisplayName" xml:space="preserve">
+    <value>Field Shape</value>
+    <comment>DisplayName for DomainClass &apos;FieldShape&apos;</comment>
+  </data>
+  <data name="FieldShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FieldShapeTypeDefaultText" xml:space="preserve">
+    <value>Type</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Ufba.visualForm.OptionShape.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.OptionShape</value>
+    <comment>Description for DomainClass &apos;OptionShape&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.OptionShape.DisplayName" xml:space="preserve">
+    <value>Option Shape</value>
+    <comment>DisplayName for DomainClass &apos;OptionShape&apos;</comment>
+  </data>
+  <data name="OptionShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldConnector.Description" xml:space="preserve">
+    <value>Connector between the ExampleShapes. Represents ExampleRelationships on the Diagram.</value>
+    <comment>Description for DomainClass &apos;FieldConnector&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.FieldConnector.DisplayName" xml:space="preserve">
+    <value>Field Connector</value>
+    <comment>DisplayName for DomainClass &apos;FieldConnector&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.OptionConnector.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.OptionConnector</value>
+    <comment>Description for DomainClass &apos;OptionConnector&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.OptionConnector.DisplayName" xml:space="preserve">
+    <value>Option Connector</value>
+    <comment>DisplayName for DomainClass &apos;OptionConnector&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>visualForm (*.vForm)|*.vForm</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>visualForm Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="Ufba.visualForm.visualFormDiagram.Description" xml:space="preserve">
+    <value>Description for Ufba.visualForm.visualFormDiagram</value>
+    <comment>Description for DomainClass &apos;visualFormDiagram&apos;</comment>
+  </data>
+  <data name="Ufba.visualForm.visualFormDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;visualFormDiagram&apos;</comment>
+  </data>
+  <data name="visualFormToolboxTab" xml:space="preserve">
+    <value>visualForm</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="FormToolboxItem" xml:space="preserve">
+    <value>Form</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="FormToolboxTooltip" xml:space="preserve">
+    <value>Create an ExampleElement</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="FieldToolboxItem" xml:space="preserve">
+    <value>Field</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="FieldToolboxTooltip" xml:space="preserve">
+    <value>Field</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="OptionToolboxItem" xml:space="preserve">
+    <value>Option</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="OptionToolboxTooltip" xml:space="preserve">
+    <value>Option</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FieldShapeRequiredDefaultImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\exclamation2.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Icon decorator default image</comment>
+  </data>
+  <data name="FormToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\..\..\Language5\Dsl\Resources\ClassTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="FieldToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\..\..\Language5\Dsl\Resources\AttributeTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="OptionToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\..\..\Language5\Dsl\Resources\MultipleAssociationTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+
